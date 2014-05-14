@@ -1,0 +1,3 @@
+outputs/*.csv
+outputs/*.html
+outputs/*.pkl
