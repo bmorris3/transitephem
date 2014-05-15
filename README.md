@@ -22,5 +22,5 @@ The observatory parameters are logged in `mro.par`, and have the following keywo
 * `calc_eclipses`: calculate ephemeris for secondary eclipse events; format = boolean
 * `html_out`: save HTML output; format = boolean
 * `text_out`: save CSV output; format = boolean
-* `twilight`: altitude of the sun in degrees at "twilight", i.e. [civil, nautical or astronomical twilight](http://en.wikipedia.org/wiki/Twilight#Definitions); format = float (default = -6)
+* `twilight`: altitude of the sun in degrees at "twilight", i.e. [civil (-6), nautical (-12) or astronomical (-18) twilight](http://en.wikipedia.org/wiki/Twilight#Definitions); format = float (default = -6)
 * `band`: default observing band (used for selection by the `mag_limit` keyword); options = V or K
