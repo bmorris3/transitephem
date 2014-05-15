@@ -5,6 +5,8 @@ A Pythonic transiting exoplanet ephemeris generator by [Brett Morris (UW)](http:
 
 The transit time predictions are likely accurate to within an hour -- those transit events with the oldest references likely have the most inaccurate transit time predictions.
 
+Parameters
+----------
 The observatory parameters are logged in `mro.par`, and have the following keywords and value formats:
 * `name`: string, name of the observatory
 * `latitude`: observatory latitude; format = deg:min:sec
