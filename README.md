@@ -7,10 +7,10 @@ The transit time predictions are likely accurate to within an hour -- those tran
 
 The observatory parameters are logged in `mro.par`, and have the following keywords and value formats:
 * `name`: string, name of the observatory
-* `latitude`: deg:min:sec
-* `longitude`: deg:min:sec
+* `latitude`: observatory latitude; format = deg:min:sec
+* `longitude`: observatory longitude; format = deg:min:sec
 * `elevation`: observatory elevation in meters
-* `temperature`: temperature in degrees C
+* `temperature`: air temperature in degrees C
 * `min_horizon`: the pointing limit of your telescope in degrees above the horizon; format = deg:min:sec
 * `start_date`: start time in UT of the ephemeris; format = (YYYY,MM,DD,HH,MM,SS)
 * `end_date`: end time in UT of the ephemeris; format = (YYYY,MM,DD,HH,MM,SS)
