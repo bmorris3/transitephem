@@ -19,8 +19,8 @@ The observatory parameters are set in the raw text file `mro.par`, and have the 
 * `elevation`: observatory elevation in meters
 * `temperature`: air temperature in degrees C
 * `min_horizon`: the pointing limit of your telescope in degrees above the horizon; format = deg:min:sec
-* `start_date`: start time in UT of the ephemeris; format = (YYYY,MM,DD,HH,MM,SS)
-* `end_date`: end time in UT of the ephemeris; format = (YYYY,MM,DD,HH,MM,SS)
+* `start_date`: start time in UT of the ephemeris; format = (YYYY,MM,DD,hh,mm,ss)
+* `end_date`: end time in UT of the ephemeris; format = (YYYY,MM,DD,hh,mm,ss)
 * `mag_limit`: the magnitude of the faintest exoplanet host star that you would like listed in the ephemeris
 * `depth_limit`: the lower limit on the depth of transit that you would like listed in the ephemeris, in units of millimag
 * `calc_transits`: calculate ephemeris for transit events; format = boolean
