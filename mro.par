@@ -1,8 +1,8 @@
-name: MRO
-latitude: 46:59:49.6
-longitude: -120:32:42.4
-elevation: 500.0
-temperature: 15.0
+name: Manastash Ridge Observatory (MRO)
+latitude: 46:57:03.9
+longitude: -120:43:28.4
+elevation: 1198.0
+temperature: 10.0
 min_horizon: 30:00:00
 start_date: (2014,05,10,0,0,0)
 end_date: (2014,05,17,0,0,0)
