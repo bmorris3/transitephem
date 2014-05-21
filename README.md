@@ -5,6 +5,11 @@ A Pythonic transiting exoplanet ephemeris generator by [Brett Morris (UW)](http:
 
 The transit time predictions are likely accurate to within an hour -- those transit events with the oldest references likely have the most inaccurate transit time predictions.
 
+To run transitephem, clone this repository, change directories into it, edit the `mro.par` file which contains your observing parameters, and execute the script with 
+```
+$ python transitephem.py
+```
+
 Parameters
 ----------
 The observatory parameters are logged in `mro.par`, and have the following keywords and value formats:
