@@ -7,6 +7,8 @@ The transit time predictions are likely accurate to within an hour -- those tran
 
 To run transitephem, clone this repository, change directories into it, edit the `mro.par` file which contains your observing parameters, and execute the script with 
 ```
+$ git clone https://github.com/bmorris3/transitephem.git
+$ cd transitephem
 $ python transitephem.py
 ```
 
