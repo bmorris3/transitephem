@@ -12,7 +12,7 @@ $ python transitephem.py
 
 Parameters
 ----------
-The observatory parameters are logged in `mro.par`, and have the following keywords and value formats:
+The observatory parameters are set in the raw text file `mro.par`, and have the following keywords and value formats:
 * `name`: string, name of the observatory
 * `latitude`: observatory latitude; format = deg:min:sec
 * `longitude`: observatory longitude; format = deg:min:sec
